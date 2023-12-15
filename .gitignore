@@ -1,7 +1,7 @@
 /node_modules
 /npm-debug.log*
 /test-results.xml
-
+package-lock.json
 
 ### *** required entries below ***
 ###
