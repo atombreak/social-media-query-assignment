@@ -4,7 +4,7 @@ export class SocialNetworkQueries {
     this.lastFetchedUser = null;
   }
 
-  // Returns a list of books that are liked by at least 50% of the current user's friends.
+  // Returns a list of books that are liked by the current user's friends and handles errors if the may occure.
   async findPotentialLikes(minimalScore) {
 
     try {
